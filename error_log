@@ -1,0 +1,140 @@
+[15-Sep-2022 14:34:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home3/excelai6/public_html/phpmailer/class.smtp.php:388
+Stack trace:
+#0 /home3/excelai6/public_html/phpmailer/class.phpmailer.php(756): SMTP->Data('Date: Thu, 15 S...')
+#1 /home3/excelai6/public_html/phpmailer/class.phpmailer.php(576): PHPMailer->SmtpSend('Date: Thu, 15 S...', '--b1_f2d08e563a...')
+#2 /home3/excelai6/public_html/Email.php(41): PHPMailer->Send()
+#3 {main}
+  thrown in /home3/excelai6/public_html/phpmailer/class.smtp.php on line 388
+[15-Sep-2022 14:49:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home3/excelai6/public_html/phpmailer/class.smtp.php:388
+Stack trace:
+#0 /home3/excelai6/public_html/phpmailer/class.phpmailer.php(756): SMTP->Data('Date: Thu, 15 S...')
+#1 /home3/excelai6/public_html/phpmailer/class.phpmailer.php(576): PHPMailer->SmtpSend('Date: Thu, 15 S...', '--b1_79f741348a...')
+#2 /home3/excelai6/public_html/Email.php(41): PHPMailer->Send()
+#3 {main}
+  thrown in /home3/excelai6/public_html/phpmailer/class.smtp.php on line 388
+[15-Sep-2022 14:57:56 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home3/excelai6/public_html/Email.php:20
+Stack trace:
+#0 {main}
+  thrown in /home3/excelai6/public_html/Email.php on line 20
+[15-Sep-2022 15:03:26 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home3/excelai6/public_html/Email.php:20
+Stack trace:
+#0 {main}
+  thrown in /home3/excelai6/public_html/Email.php on line 20
+[09-Jul-2023 09:15:54 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home3/excelai6/public_html/Email.php:20
+Stack trace:
+#0 {main}
+  thrown in /home3/excelai6/public_html/Email.php on line 20
+[10-Jul-2023 05:38:29 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home3/excelai6/public_html/Email.php:20
+Stack trace:
+#0 {main}
+  thrown in /home3/excelai6/public_html/Email.php on line 20
+[10-Jul-2023 05:39:04 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home3/excelai6/public_html/Email.php:20
+Stack trace:
+#0 {main}
+  thrown in /home3/excelai6/public_html/Email.php on line 20
+[10-Jul-2023 05:40:39 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home3/excelai6/public_html/Email.php:20
+Stack trace:
+#0 {main}
+  thrown in /home3/excelai6/public_html/Email.php on line 20
+[10-Jul-2023 05:44:33 UTC] PHP Warning:  require(phpmailer/PHPMailer.php): Failed to open stream: No such file or directory in /home3/excelai6/public_html/Email.php on line 17
+[10-Jul-2023 05:44:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'phpmailer/PHPMailer.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/excelai6/public_html/Email.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/excelai6/public_html/Email.php on line 17
+[10-Jul-2023 05:47:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home3/excelai6/public_html/phpmailer/class.smtp.php:388
+Stack trace:
+#0 /home3/excelai6/public_html/phpmailer/class.phpmailer.php(756): SMTP->Data('Date: Mon, 10 J...')
+#1 /home3/excelai6/public_html/phpmailer/class.phpmailer.php(576): PHPMailer->SmtpSend('Date: Mon, 10 J...', '<b>Full Name: <...')
+#2 /home3/excelai6/public_html/Email.php(45): PHPMailer->Send()
+#3 {main}
+  thrown in /home3/excelai6/public_html/phpmailer/class.smtp.php on line 388
+[10-Jul-2023 05:48:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home3/excelai6/public_html/phpmailer/class.smtp.php:388
+Stack trace:
+#0 /home3/excelai6/public_html/phpmailer/class.phpmailer.php(756): SMTP->Data('Date: Mon, 10 J...')
+#1 /home3/excelai6/public_html/phpmailer/class.phpmailer.php(576): PHPMailer->SmtpSend('Date: Mon, 10 J...', '<b>Full Name: <...')
+#2 /home3/excelai6/public_html/Email.php(45): PHPMailer->Send()
+#3 {main}
+  thrown in /home3/excelai6/public_html/phpmailer/class.smtp.php on line 388
+[10-Jul-2023 05:51:41 UTC] PHP Parse error:  syntax error, unexpected identifier "Message", expecting "," or ";" in /home3/excelai6/public_html/Email.php on line 52
+[10-Jul-2023 05:55:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home3/excelai6/public_html/phpmailer/class.smtp.php:388
+Stack trace:
+#0 /home3/excelai6/public_html/phpmailer/class.phpmailer.php(756): SMTP->Data('Date: Mon, 10 J...')
+#1 /home3/excelai6/public_html/phpmailer/class.phpmailer.php(576): PHPMailer->SmtpSend('Date: Mon, 10 J...', '<b>Full Name: <...')
+#2 /home3/excelai6/public_html/Email.php(47): PHPMailer->Send()
+#3 {main}
+  thrown in /home3/excelai6/public_html/phpmailer/class.smtp.php on line 388
+[10-Jul-2023 05:57:47 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home3/excelai6/public_html/Email.php:23
+Stack trace:
+#0 {main}
+  thrown in /home3/excelai6/public_html/Email.php on line 23
+[10-Jul-2023 05:59:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home3/excelai6/public_html/phpmailer/class.smtp.php:388
+Stack trace:
+#0 /home3/excelai6/public_html/phpmailer/class.phpmailer.php(756): SMTP->Data('Date: Mon, 10 J...')
+#1 /home3/excelai6/public_html/phpmailer/class.phpmailer.php(576): PHPMailer->SmtpSend('Date: Mon, 10 J...', '<b>Full Name: <...')
+#2 /home3/excelai6/public_html/Email.php(47): PHPMailer->Send()
+#3 {main}
+  thrown in /home3/excelai6/public_html/phpmailer/class.smtp.php on line 388
+[10-Jul-2023 06:09:56 UTC] PHP Parse error:  syntax error, unexpected token "use" in /home3/excelai6/public_html/Email.php on line 18
+[10-Jul-2023 06:11:22 UTC] PHP Warning:  require(PHPMailer\class.phpmailer.php): Failed to open stream: No such file or directory in /home3/excelai6/public_html/Email.php on line 18
+[10-Jul-2023 06:11:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'PHPMailer\class.phpmailer.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/excelai6/public_html/Email.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/excelai6/public_html/Email.php on line 18
+[10-Jul-2023 06:13:42 UTC] PHP Warning:  require(PHPMailer\class.phpmailer.php): Failed to open stream: No such file or directory in /home3/excelai6/public_html/Email.php on line 18
+[10-Jul-2023 06:13:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'PHPMailer\class.phpmailer.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/excelai6/public_html/Email.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/excelai6/public_html/Email.php on line 18
+[10-Jul-2023 06:15:46 UTC] PHP Warning:  require(PHPMailer\class.phpmailer.php): Failed to open stream: No such file or directory in /home3/excelai6/public_html/Email.php on line 18
+[10-Jul-2023 06:15:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'PHPMailer\class.phpmailer.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/excelai6/public_html/Email.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/excelai6/public_html/Email.php on line 18
+[10-Jul-2023 06:16:48 UTC] PHP Warning:  require(phpmailer1\class.phpmailer.php): Failed to open stream: No such file or directory in /home3/excelai6/public_html/Email.php on line 18
+[10-Jul-2023 06:16:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'phpmailer1\class.phpmailer.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/excelai6/public_html/Email.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/excelai6/public_html/Email.php on line 18
+[10-Jul-2023 06:17:13 UTC] PHP Warning:  require(phpmailer\class.phpmailer.php): Failed to open stream: No such file or directory in /home3/excelai6/public_html/Email.php on line 18
+[10-Jul-2023 06:17:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'phpmailer\class.phpmailer.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/excelai6/public_html/Email.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/excelai6/public_html/Email.php on line 18
+[10-Jul-2023 06:18:53 UTC] PHP Warning:  require(~\phpmailer\class.phpmailer.php): Failed to open stream: No such file or directory in /home3/excelai6/public_html/Email.php on line 18
+[10-Jul-2023 06:18:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '~\phpmailer\class.phpmailer.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/excelai6/public_html/Email.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/excelai6/public_html/Email.php on line 18
+[10-Jul-2023 06:19:22 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home3/excelai6/public_html/Email.php:21
+Stack trace:
+#0 {main}
+  thrown in /home3/excelai6/public_html/Email.php on line 21
+[10-Jul-2023 06:22:12 UTC] PHP Parse error:  syntax error, unexpected token ".", expecting "," or ";" in /home3/excelai6/public_html/Email.php on line 2
+[10-Jul-2023 06:22:39 UTC] PHP Parse error:  syntax error, unexpected token ".", expecting "," or ";" in /home3/excelai6/public_html/Email.php on line 2
+[10-Jul-2023 06:23:13 UTC] PHP Parse error:  syntax error, unexpected token ".", expecting "," or ";" in /home3/excelai6/public_html/Email.php on line 2
+[10-Jul-2023 06:24:15 UTC] PHP Parse error:  syntax error, unexpected token ".", expecting "," or ";" in /home3/excelai6/public_html/Email.php on line 2
+[10-Jul-2023 06:26:00 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home3/excelai6/public_html/Email.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/excelai6/public_html/Email.php on line 22
+[10-Jul-2023 06:26:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home3/excelai6/public_html/phpmailer/class.smtp.php:388
+Stack trace:
+#0 /home3/excelai6/public_html/phpmailer/class.phpmailer.php(756): SMTP->Data('Date: Mon, 10 J...')
+#1 /home3/excelai6/public_html/phpmailer/class.phpmailer.php(576): PHPMailer->SmtpSend('Date: Mon, 10 J...', '<b>Full Name: <...')
+#2 /home3/excelai6/public_html/Email.php(48): PHPMailer->Send()
+#3 {main}
+  thrown in /home3/excelai6/public_html/phpmailer/class.smtp.php on line 388
+[10-Jul-2023 06:30:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home3/excelai6/public_html/phpmailer/class.smtp.php:388
+Stack trace:
+#0 /home3/excelai6/public_html/phpmailer/class.phpmailer.php(756): SMTP->Data('Date: Mon, 10 J...')
+#1 /home3/excelai6/public_html/phpmailer/class.phpmailer.php(576): PHPMailer->SmtpSend('Date: Mon, 10 J...', '<b>Full Name: <...')
+#2 /home3/excelai6/public_html/Email.php(48): PHPMailer->Send()
+#3 {main}
+  thrown in /home3/excelai6/public_html/phpmailer/class.smtp.php on line 388
+[10-Jul-2023 06:33:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home3/excelai6/public_html/phpmailer/class.smtp.php:388
+Stack trace:
+#0 /home3/excelai6/public_html/phpmailer/class.phpmailer.php(756): SMTP->Data('Date: Mon, 10 J...')
+#1 /home3/excelai6/public_html/phpmailer/class.phpmailer.php(576): PHPMailer->SmtpSend('Date: Mon, 10 J...', '<b>Full Name: <...')
+#2 /home3/excelai6/public_html/Email.php(48): PHPMailer->Send()
+#3 {main}
+  thrown in /home3/excelai6/public_html/phpmailer/class.smtp.php on line 388

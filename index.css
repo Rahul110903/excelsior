@@ -1,0 +1,98 @@
+body {
+    font-family: "Poppins", serif;  
+}
+
+.headerContainer {
+    background: linear-gradient(60deg, #315765, #59aece);
+    padding: 10px 40px;
+}
+
+.hoverHeader:hover {
+    border-bottom: white solid 1.5px;
+}
+
+.hoverHeader {
+    height: 40px;
+    margin-left: 20px;
+}
+
+.toggle-button {
+    background-color: white;
+}
+
+
+.firstSectionFont {
+    font-size: 56px;
+    font-weight: 500;
+    color: #286f8b;
+    line-height: 52px;
+    letter-spacing: 3px;
+}
+
+.firstInnerContainer {
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.exploreButton {
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 12px 25px;
+    border-width: 0;
+    background-color: #43788b;
+}
+
+.exploreButton:hover {
+    opacity: 0.75;
+}
+
+.responsiveToggle {
+    margin-left: 60px
+}
+
+.secondSlideFirstContainer {
+    background: linear-gradient(0deg, #83838d, #e1e2f3);
+    border-radius: 20px;
+    padding: 50px 30px 20px 50px;
+}
+
+.innerFirstText {
+    width: 60%;
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+    @media only screen and (max-width: 1000px) {
+        .mobileImage {
+        display: none;
+        }
+        .responsiveToggle {
+            margin-left: 0px
+        }
+    }
+
+  @media only screen and (max-width: 1233px) {
+    .mobileFirstFontSize {
+        line-height: 70px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .firstSectionFont {
+        font-size: 26px;
+        line-height: 24px;
+    }
+    .mobileFirstFontSize {
+        line-height: 40px;
+    }
+    .toggleButton {
+        height: 14px;
+        width: 14px;
+    }
+    .toggle-button {
+        padding: 3px 12px
+    } 
+  }
